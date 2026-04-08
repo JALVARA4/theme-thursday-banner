@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body {
+background: #000000;
+overflow: hidden;
+height: 100%;
+}
+.banner {
+background: #000000;
+border-top: 3px solid #0057A8;
+border-bottom: 3px solid #0057A8;
+padding: 12px 0;
+overflow: hidden;
+width: 100%;
+}
+.track {
+display: inline-block;
+white-space: nowrap;
+font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: #ffffff;
+animation: scroll 25s linear infinite;
+}
+.track:hover { animation-play-state: paused; }
+.highlight { color: #5BB8FF; }
+.divider { color: #0057A8; margin: 0 16px; font-size: 20px; }
+@keyframes scroll {
+from { transform: translateX(100vw); }
+to { transform: translateX(-100%); }
+}
+</style>
+</head>
+<body>
+<div class="banner">
+<div class="track">
+🔥 <span class="highlight">This Week:</span> NEON NIGHT — wear your brightest colors!
+<span class="divider">|</span>
+🏆 <span class="highlight">Last Winner:</span> Maria R. — Decade Day!
+<span class="divider">|</span>
+📸 <span class="highlight">Submit</span> Thursday photos to the team channel!
+<span class="divider">|</span>
+🎟️ <span class="highlight">Summer Gala</span> Tickets now available!
+<span class="divider">|</span>
+👗 <span class="highlight">Next Theme:</span> Western Roundup — April 10th!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+</body>
+</html>
